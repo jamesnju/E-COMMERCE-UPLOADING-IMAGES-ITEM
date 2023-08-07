@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 1;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gainsboro;
+
+}
+
+header{
+    background-position: center;
+    height: 10vh;
+    position: relative;
+}
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 90px 0 60px;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    position: center;
+   /* padding-right: 30px;/*changing the horizontal position of the nav bar*/
+    /*padding-left: 20px;*/
+}

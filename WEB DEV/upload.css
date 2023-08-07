@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    font-size: 65%;
+}
+body{
+    background-color: antiquewhite;
+}
+#upload{
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#upload form{
+    display: flex;
+    flex-direction: column;
+}
+#upload form input{
+    padding: 20px;
+    margin: 10px;
+    outline: none;
+    border: 1px solid blueviolet;
+
+}
+#upload form input:hover{
+    cursor: pointer;
+    background-color: rgb(226, 226, 243);
+}
+#upload form button{
+    padding: 20px;
+    outline: none;
+    background-color: rgb(0, 225, 255);
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+#upload form button:hover{
+    cursor: pointer;
+    background-color: gold;
+}

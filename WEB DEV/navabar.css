@@ -1,0 +1,15 @@
+.header{
+    position: fixed;
+}
+.all{
+    background-color: rgb(3, 3, 87);
+    padding: auto;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    
+}
+.left{
+    align-items: end;
+
+}

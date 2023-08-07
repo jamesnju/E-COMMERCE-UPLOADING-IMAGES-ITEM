@@ -1,0 +1,96 @@
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+ }
+ html{
+     font-size: 62.5%;
+ 
+ }
+ main{
+    max-width: 1500px;
+    width: 95%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+ }
+ main .mai{
+    display: flex;
+    height: 190px;
+    border: 1px solid aqua;
+    margin: 20px;
+ }
+main .mai .image{
+   width: 20%;
+}
+main .mai .image img{
+    width: 100%;
+    height: 100%;
+    /*object-fit: cover;*/
+}
+main .mai .captions{
+    position: relative;
+    line-height: 1.5em;
+    height: 100%;
+    margin-left: 30px;
+    width: 74%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .mai .captions p{
+    font-size: 1.5rem;
+    
+}
+del{
+    text-decoration: line-through;
+}
+main .mai .captions .rate{
+    display: flex;
+}
+main .mai .captions .rate img{
+    color: gold;
+    margin-left: 2px;
+}
+
+/*
+main .mai a{
+    width: 50%;
+}*/
+main .mai .captions button{
+    border: none;
+    font-weight: 500;
+    padding: 1em;
+    width: 100%;    
+    cursor: pointer;
+    outline: none;
+    border-radius: 3px;
+    background-color:red;
+    width: 30%;
+    font-weight: bold;
+    margin-top: 2em;
+
+}
+main .mai .captions button:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+
+h1{
+    color: blue;
+    padding-left: 80px;
+    padding-right: 80px;  
+}
+h1:hover{
+    cursor: pointer;
+    color: chartreuse;
+}
+
+
+
+
